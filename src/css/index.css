@@ -1,0 +1,76 @@
+body {
+  font: 14px 'Menlo', sans-serif;
+  margin: 20px;
+  background-color: #000;
+  color: #00ff41;
+}
+
+.board {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 40vw;
+  height: 40vw;
+  margin-right: 20px;
+}
+
+.square {
+  background: transparent;
+  border: 3px solid #003b00;
+  font-size: 5vw;
+  font-weight: bold;
+  transition: all 0.2s ease-in-out;
+  color: #00ff41;
+}
+
+.square:hover {
+  background-color: #008f11;
+}
+
+.square:focus {
+  outline: none;
+}
+
+.game {
+  display: flex;
+}
+
+.game-info p {
+  font-size: 22px;
+  margin: 0;
+}
+
+.game-history {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.game-history p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.game-history button {
+  border-radius: 7px;
+  background-color: #00ff4120;
+  border: 1px solid #00ff41;
+  margin-bottom: 10px;
+  color: #ffffff;
+  transition: background-color 0.2s ease-in-out;
+  cursor: pointer;
+  height: 30px;
+  font: 14px 'Menlo', sans-serif;
+}
+
+.game-history button:hover {
+  background-color: #003b00;
+}
+
+.game-history button:focus {
+  outline: 2px dashed #00ff41;
+}
+
+.game-history button:last-child {
+  margin-bottom: 0;
+}
