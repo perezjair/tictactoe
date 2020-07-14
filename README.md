@@ -1,4 +1,4 @@
-#  # Tic-tac-toe game
+#  😸 Tic-tac-toe game
 
 In the project directory, you can run:
 
