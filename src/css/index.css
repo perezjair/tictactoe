@@ -20,7 +20,8 @@ body {
   font-size: 5vw;
   font-weight: bold;
   transition: all 0.2s ease-in-out;
-  color: #00ff41;
+  color: #fff;
+  text-shadow: 2px 2px 6px #00ff41, -2px -2px 6px #00FF44;
 }
 
 .square:hover {
@@ -33,6 +34,10 @@ body {
 
 .game {
   display: flex;
+}
+
+.game-info {
+  min-width: 185px;
 }
 
 .game-info p {
